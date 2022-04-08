@@ -1,0 +1,74 @@
+[{
+    "title": "Personal Site",
+    "description": "This website",
+    "url": "https://github.com/Alin-bot/Personal_site",
+    "photo": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/220px-Sass_Logo_Color.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png"
+    ]
+},
+{
+    "title": "Password Manager",
+    "description": "A Python program which saves your passwords and usernames in a SQLite Database and encrypts them using cryptocode library",
+    "url": "https://github.com/Alin-bot/Password_manager",
+    "photo": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/121px-Python-logo-notext.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/220px-SQLite370.svg.png"
+    ]
+},
+{
+    "title": "Pokedex",
+    "description": "A React project which uses JS, html and scss, that simulates a Pokedex like app. This is my first React project, which sowed me the beauty of this framework.",
+    "url": "https://github.com/Alin-bot/Pokedex",
+    "photo": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/70px-Unofficial_JavaScript_logo_2.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/220px-Sass_Logo_Color.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png"
+    ]
+},
+{
+    "title": "Traffic Simulator",
+    "description": "Together with a group of 21 people we managed to design a traffic simulator in Java using OOP principles, JavaFX library, threads, algorithms. The project was divided in 5 different modules and I was part of the team which computed the optimum path for cars to get to their destination, using genetic algorithms",
+    "url": "https://github.com/davidviziteu/programming-engineering",
+    "photo": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png"
+    ]
+},
+{
+    "title": "Parcel Shiping Simulator",
+    "description": "My team of 3 members implemented a Web application using HTML, CSS, JS and PHP using only open source libraries (no framework)",
+    "url": "https://github.com/andreeabmanea/Web-Technologies",
+    "photo": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/70px-Unofficial_JavaScript_logo_2.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/150px-PHP-logo.svg.png"
+    ]
+},
+{
+    "title": "Scrabble Game",
+    "description": "Together with a colleague, we managed to desgin the well known Scrabble game, using Java, OOP principles, algorithms and socket programming + JavaFX for the interface",
+    "url": "https://github.com/andreeabmanea/Scrabble",
+    "photo": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png"
+    ]
+},
+{
+    "title": "Pheasant",
+    "description": "A server - client Project which simulates the well known game Pheasant",
+    "url": "https://github.com/Alin-bot/Computer_networks_project",
+    "photo": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+    ]
+},
+{
+    "title": "Mathematical-evaluator",
+    "description": "A C++ program that evaluates mathematical expressions given as an input string",
+    "url": "https://github.com/Alin-bot/Mathematical-evaluator",
+    "photo": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+    ]
+}]
