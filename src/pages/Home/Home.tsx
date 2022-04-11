@@ -1,9 +1,18 @@
 import React from 'react'
+import {
+  
+} from '@chakra-ui/react'
 
-import './Home.css';
+import { NavBar } from '../../components/index'
 
-export const Home: React.FC = () => {
+import './Home.css'
+
+const Home: React.FC = () => {
   return (
-    <div>Home</div>
+    <>
+      <NavBar/>
+    </>
   )
 }
+
+export default Home

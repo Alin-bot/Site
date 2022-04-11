@@ -1,19 +1,17 @@
 import React from 'react'
 
-import './Projects.css';
+import './Projects.css'
 import projects from '../../resources/projects.json'
+import { NavBar } from '../../components'
 
-export const Projects: React.FC = () => {
+const Projects: React.FC = () => {
 
     function getProjects(projects: any[]) {
         return (
-            projects.map(project => {
-                return (
-                    <div>
-                        {project.title}
-                    </div>
-                )
-            })
+            <>
+                <NavBar/>
+                {projects.map(project => <div>{project.title}</div>)}
+            </>
         )
     }
 
@@ -23,3 +21,5 @@ export const Projects: React.FC = () => {
     </div>
   )
 }
+
+export default Projects

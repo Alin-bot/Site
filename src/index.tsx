@@ -8,23 +8,26 @@ import {
 } from "@chakra-ui/react"
 
 import { Layout } from './components'
-import { Home } from './pages'
-import { NotFound } from "./pages";
-import { Projects } from "./pages";
+
+const Home = React.lazy(() => import('./pages/Home/Home'))
+const Projects = React.lazy(() => import('./pages/Projects/Projects'))
+const NotFound = React.lazy(() => import('./pages/NotFound/NotFound'))
 
 ReactDOM.render(
   <React.StrictMode>
     <ColorModeScript />
-      <ChakraProvider theme={theme}>
+    <ChakraProvider theme={theme}>
       <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route index element={<Home/>} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="*" element={<NotFound/>}/>
-        </Routes>
-      </Layout>  
-    </BrowserRouter>
+        <Layout>
+          <React.Suspense fallback={<div>Loading...</div>}>
+            <Routes>
+              <Route index element={<Home/>} />
+              <Route path="/projects" element={<Projects/>} />
+              <Route path="*" element={<NotFound/>}/>
+            </Routes>
+          </React.Suspense>
+        </Layout>  
+      </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>,
   document.getElementById("root"),
