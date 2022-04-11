@@ -10,8 +10,6 @@ import {
   Heading,
   UnorderedList,
   ListItem,
-  HStack,
-  Box,
   Image,
   Container,
 } from "@chakra-ui/react";
