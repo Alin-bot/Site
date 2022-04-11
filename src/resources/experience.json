@@ -1,0 +1,54 @@
+[{
+    "title": "Application Management Engineer Intern",
+    "company": "Endava",
+    "type": "full-time",
+    "location": "Iasi",
+    "start": "Jul 2021",
+    "end": "Sep 2021",
+    "description": "",
+    "technologies": [
+        "AWS",
+        "Docker",
+        "Terraform",
+        ".NET",
+        "Angular"
+    ]
+},
+{
+    "title": "Training Participant (React - Bytex)",
+    "company": "FIIPractic",
+    "type": "participant",
+    "location": "Iasi",
+    "start": "Mar 2022",
+    "end": "Apr 2022",
+    "description": "The desire to learn more frontend concepts on my own captured me, so enrolling in this course was the best idea ever.",
+    "technologies": [
+        "React"
+    ]
+},
+{
+    "title": "Java Software Engineer Academy",
+    "company": "Endava",
+    "type": "full-time",
+    "location": "Iasi",
+    "start": "Mar 2022",
+    "end": "Apr 2022",
+    "description": "",
+    "technologies": [
+        "Java",
+        "Spring"
+    ]
+},
+{
+    "title": "Java Software Engineer Intern",
+    "company": "Ness",
+    "type": "part-time",
+    "location": "Iasi",
+    "start": "Apr 2022",
+    "end": "May 2022",
+    "description": "",
+    "technologies": [
+        "Java",
+        "Spring"
+    ]
+}]

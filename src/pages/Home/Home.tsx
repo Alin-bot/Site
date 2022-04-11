@@ -1,15 +1,59 @@
 import React from "react";
-import { Button } from "@chakra-ui/react";
+import {
+  Button,
+  HStack,
+  Image,
+  VStack,
+  Heading,
+  Container,
+  Wrap
+} from "@chakra-ui/react";
 
 import { NavBar } from "../../components/index";
+import CompanyBox from "../../components/CompanyBox/CompanyBox";
 
 import "./Home.css";
+import experience from "../../resources/experience.json";
+const PPicture = require("../../resources/profile_photo.jpg");
+
+function getExperience() {
+  return (
+    <Wrap justify='center'>
+      {experience.map(exp => <CompanyBox data={exp}/>)}
+    </Wrap>
+  )
+}
 
 const Home: React.FC = () => {
   return (
     <>
       <NavBar />
-      <Button colorScheme='linkedin'>LinkedIn</Button>
+
+      <VStack>
+        <HStack wrap="wrap" justify='center'>
+          <VStack p={5}>
+            <Image
+              src={`${PPicture}`}
+              alt="profile-picture"
+              height="300px"
+              width="275px"
+              borderRadius="50px"
+            />
+            <Heading size="lg">Vezeteu Alin</Heading>
+          </VStack>
+
+          <Container>
+            My strongest passion is programming and what intrigues me most from
+            this vast field is the backend and the mental challenges given by
+            it, in order to devolop a final project. I am also keen on
+            discovering more frontend concepts.
+          </Container>
+        </HStack>
+
+        {getExperience()}
+      </VStack>
+
+      <Button colorScheme="linkedin">LinkedIn</Button>
     </>
   );
 };
