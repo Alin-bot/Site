@@ -1,12 +1,13 @@
 [{
     "title": "Personal Site",
     "description": "This website",
-    "url": "https://github.com/Alin-bot/Personal_site",
+    "url": "https://github.com/Alin-bot/Site",
     "photo": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png",
         "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/220px-Sass_Logo_Color.svg.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png",
+        "https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logo-colored@2x.png?raw=true"
     ]
 },
 {

@@ -1,18 +1,17 @@
-import React from 'react'
-import {
-  
-} from '@chakra-ui/react'
+import React from "react";
+import { Button } from "@chakra-ui/react";
 
-import { NavBar } from '../../components/index'
+import { NavBar } from "../../components/index";
 
-import './Home.css'
+import "./Home.css";
 
 const Home: React.FC = () => {
   return (
     <>
-      <NavBar/>
+      <NavBar />
+      <Button colorScheme='linkedin'>LinkedIn</Button>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
