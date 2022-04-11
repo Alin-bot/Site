@@ -1,11 +1,12 @@
 [{
     "title": "Application Management Engineer Intern",
     "company": "Endava",
+    "photo": "https://www.endava.com/-/media/EndavaDigital/Endava/Images/MetaDataImages/preview-image.ashx",
     "type": "full-time",
     "location": "Iasi",
     "start": "Jul 2021",
     "end": "Sep 2021",
-    "description": "",
+    "description": "Applying for a position in the IT field for the first time, I saw what teamwork really means and how work is distributed in a large company. For 1 month I participated in trainings based not only on the DevOps side, but also on the Development side, in the end putting in aplication this knowledge on a large project",
     "technologies": [
         "AWS",
         "Docker",
@@ -17,11 +18,12 @@
 {
     "title": "Training Participant (React - Bytex)",
     "company": "FIIPractic",
+    "photo": "https://fiipractic.asii.ro/assets/images/fp-logo.svg",
     "type": "participant",
     "location": "Iasi",
     "start": "Mar 2022",
     "end": "Apr 2022",
-    "description": "The desire to learn more frontend concepts on my own captured me, so enrolling in this course was the best idea ever.",
+    "description": "The desire to learn more frontend concepts on my own captured me, enrolling in this course being the best idea ever.",
     "technologies": [
         "React"
     ]
@@ -29,11 +31,12 @@
 {
     "title": "Java Software Engineer Academy",
     "company": "Endava",
+    "photo": "https://www.endava.com/-/media/EndavaDigital/Endava/Images/MetaDataImages/preview-image.ashx",
     "type": "full-time",
     "location": "Iasi",
     "start": "Mar 2022",
     "end": "Apr 2022",
-    "description": "",
+    "description": "I attended this academy hoping to deepen my knowledge of java and web services.",
     "technologies": [
         "Java",
         "Spring"
@@ -42,11 +45,12 @@
 {
     "title": "Java Software Engineer Intern",
     "company": "Ness",
+    "photo": "https://www.ness.com/wp-content/uploads/2017/11/default.png",
     "type": "part-time",
     "location": "Iasi",
     "start": "Apr 2022",
     "end": "May 2022",
-    "description": "",
+    "description": "I was offered an opportunity to enroll in an internship on Java, accepting it with great pleasure to deepen my knowledge even more.",
     "technologies": [
         "Java",
         "Spring"

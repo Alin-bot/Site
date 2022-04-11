@@ -19,7 +19,7 @@ const PPicture = require("../../resources/profile_photo.jpg");
 function getExperience() {
   return (
     <Wrap justify='center'>
-      {experience.map(exp => <CompanyBox data={exp}/>)}
+      {experience.map(exp => <CompanyBox key={exp.title} data={exp}/>)}
     </Wrap>
   )
 }
@@ -52,8 +52,6 @@ const Home: React.FC = () => {
 
         {getExperience()}
       </VStack>
-
-      <Button colorScheme="linkedin">LinkedIn</Button>
     </>
   );
 };

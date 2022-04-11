@@ -3,22 +3,19 @@ import {
   Button,
   Heading,
   VStack,
+  useDisclosure,
+  Image,
 } from "@chakra-ui/react";
 import React from "react";
 
-function DisplayDetails(data: { [key: string]: any }) {
-  return (
-    <>
-
-    </>
-  );
-}
+import { DescriptionModal } from '../index'
 
 interface Props {
   data: { [key: string]: any };
 }
 
 const CompanyBox: React.FC<Props> = ({ data }) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <VStack
       w={300}
@@ -28,14 +25,21 @@ const CompanyBox: React.FC<Props> = ({ data }) => {
       borderWidth={5}
       borderRadius={20}
       borderColor="gray"
+      justify='space-between'
     >
-      <Heading size="md">{data.title}</Heading>
+      <Heading size="md" textAlign="center">
+        {data.title}
+      </Heading>
 
-      <Box>{`${data.company} - ${data.location}`}</Box>
+      <Image w='70px' src={`${data.photo}`} alt='company'/>
+      <Box >{`${data.company} - ${data.location}`}</Box>
       <Box>{`(${data.type})`}</Box>
-      <Box>{`${data.start} - ${data.end}`}</Box>
+      <Box>{`${data.start} -> ${data.end}`}</Box>
 
-      <Button onClick={() => DisplayDetails(data)}>View details</Button>
+      <DescriptionModal isOpen={isOpen} onClose={onClose} data={data}/>
+      <Button justifySelf="end" onClick={onOpen}>
+        View details
+      </Button>
     </VStack>
   );
 };
