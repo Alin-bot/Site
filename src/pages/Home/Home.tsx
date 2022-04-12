@@ -6,16 +6,18 @@ import {
   Heading,
   Container,
   Wrap,
-  Badge,
-  Tag,
-  WrapItem,
   Button,
   Divider,
   Text,
 } from "@chakra-ui/react";
 import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 
-import { NavBar, CompanyBox, EducationBox } from "../../components/index";
+import {
+  NavBar,
+  CompanyBox,
+  EducationBox,
+  Skill,
+} from "../../components/index";
 
 import experience from "../../resources/experience.json";
 import education from "../../resources/education.json";
@@ -52,9 +54,16 @@ function getLove() {
   return (
     <>
       <Heading>What I love to work with</Heading>
-      <VStack justify="center" pb={20} pt={5}>
+      <VStack justify="center" p={10} pb={20} pt={5}>
         {loving.map((tech) => (
-          <Text>{tech.name}</Text>
+          <>
+            <HStack>
+              <Image src={tech.photo} alt={"tech"} h={8}></Image>
+              <Text>{tech.name}</Text>
+            </HStack>
+            <Container>{tech.description}</Container>
+            <Divider></Divider>
+          </>
         ))}
       </VStack>
     </>
@@ -64,32 +73,11 @@ function getLove() {
 function getSkills() {
   return (
     <>
-      <Heading>What I learned</Heading>
+      <Heading>What I've learned so far</Heading>
       <VStack pb={20} pt={5}>
-        {skills.map((skill) => {
-          return (
-            <Wrap
-              direction={["column", "column", "column", "row"]}
-              w={[300, 300, 300, 800]}
-            >
-              <WrapItem>
-                <Badge colorScheme="purple" p={1}>
-                  {skill.title}
-                </Badge>
-              </WrapItem>
-
-              <WrapItem>
-                <HStack wrap={["wrap", "wrap", "wrap", "nowrap"]} spacing={3}>
-                  {skill.data.map((tech) => (
-                    <Tag key={tech} p={1}>
-                      {tech}
-                    </Tag>
-                  ))}
-                </HStack>
-              </WrapItem>
-            </Wrap>
-          );
-        })}
+        {skills.map((skill) => (
+          <Skill skill={skill}></Skill>
+        ))}
       </VStack>
     </>
   );
@@ -141,6 +129,9 @@ const Home: React.FC = () => {
       <VStack>
         <HStack wrap="wrap" justify="center">
           <VStack p={5}>
+            <Heading size="lg" textAlign={"center"}>
+              Alin-Alexandru Vezeteu
+            </Heading>
             <Image
               src={`${PPicture}`}
               alt="profile-picture"
@@ -148,15 +139,20 @@ const Home: React.FC = () => {
               width="275px"
               borderRadius="50px"
             />
-            <Heading size="lg">Vezeteu Alin</Heading>
           </VStack>
 
-          <Container>
-            My strongest passion is programming and what intrigues me most from
-            this vast field is the backend and the mental challenges given by
-            it, in order to devolop a final project. I am also keen on
-            discovering more frontend concepts.
-          </Container>
+          <VStack>
+            <Heading size="md" textAlign={"center"} w={[300, 300, 500]}>
+              Last year of Bachelor’s Degree in Computer Science
+            </Heading>
+            <Divider></Divider>
+            <Container>
+              My strongest passion is programming and what intrigues me most
+              from this vast field is the backend and the mental challenges
+              given by it, in order to devolop a final project. I am also keen
+              on discovering more frontend concepts.
+            </Container>
+          </VStack>
         </HStack>
 
         {getEducation()}

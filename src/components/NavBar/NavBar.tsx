@@ -1,8 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { MdHome } from "react-icons/md";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { Flex, Button, chakra } from "@chakra-ui/react";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { MdHome } from 'react-icons/md'
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
+import { BiHappyAlt } from 'react-icons/bi'
+import { Flex, Button, chakra } from '@chakra-ui/react'
 
 export const NavBar: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ export const NavBar: React.FC = () => {
             Home{" "}
           </Button>
         </Link>
-        
+
         <Link to={`/projects`}>
           <Button
             leftIcon={<AiOutlineFundProjectionScreen />}
@@ -22,6 +23,13 @@ export const NavBar: React.FC = () => {
           >
             {" "}
             Projects{" "}
+          </Button>
+        </Link>
+
+        <Link to={`/more`}>
+          <Button leftIcon={<BiHappyAlt />} colorScheme="white">
+            {" "}
+            More{" "}
           </Button>
         </Link>
       </Flex>

@@ -9,6 +9,7 @@ import { Layout } from "./components";
 const Home = React.lazy(() => import("./pages/Home/Home"));
 const Projects = React.lazy(() => import("./pages/Projects/Projects"));
 const NotFound = React.lazy(() => import("./pages/NotFound/NotFound"));
+const More = React.lazy(() => import("./pages/More/More"));
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
             <Routes>
               <Route index element={<Home />} />
               <Route path="/projects" element={<Projects />} />
+              <Route path="/more" element={<More />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </React.Suspense>
