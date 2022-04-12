@@ -1,4 +1,4 @@
-import { Heading, VStack, Box, Container } from "@chakra-ui/react";
+import { Heading, VStack, Box } from "@chakra-ui/react";
 import React from "react";
 
 interface Props {
