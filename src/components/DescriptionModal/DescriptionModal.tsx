@@ -6,12 +6,13 @@ import {
   ModalHeader,
   ModalFooter,
   ModalBody,
-  Button,
+  ModalCloseButton,
   Heading,
   UnorderedList,
   ListItem,
   Image,
   Container,
+  Box,
 } from "@chakra-ui/react";
 
 interface Props {
@@ -20,30 +21,35 @@ interface Props {
   data: { [key: string]: any };
 }
 
-export const DescriptionModal: React.FC<Props> = ({ isOpen, onClose, data }) => {
+export const DescriptionModal: React.FC<Props> = ({
+  isOpen,
+  onClose,
+  data,
+}) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />
       <ModalContent>
         <ModalHeader>
           {data.title}
-          <Image mt={15} w='70px' src={`${data.photo}`} alt='company'/>
+          <Image mt={15} w="70px" src={`${data.photo}`} alt="company" />
         </ModalHeader>
+        <ModalCloseButton />
 
         <ModalBody>
           <Container mb={19}>{data.description}</Container>
-          
-          <Heading size='sm'>
-            Used Technologies:
-          </Heading>
+
+          <Heading size="sm">Used Technologies:</Heading>
 
           <UnorderedList>
-            {data.technologies.map((tech: string) => <ListItem>{`${tech}`}</ListItem>)}
+            {data.technologies.map((tech: string) => (
+              <ListItem key={tech}>{`${tech}`}</ListItem>
+            ))}
           </UnorderedList>
         </ModalBody>
 
         <ModalFooter>
-          <Button colorScheme="gray" mr={3} onClick={onClose}>Close</Button>
+          <Box>{`Start date: ${data.start} - End date: ${data.end}`}</Box>
         </ModalFooter>
       </ModalContent>
     </Modal>

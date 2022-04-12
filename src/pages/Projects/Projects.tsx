@@ -12,7 +12,6 @@ import {
 
 import { NavBar } from "../../components";
 
-import "./Projects.css";
 import projects from "../../resources/projects.json";
 
 const Projects: React.FC = () => {

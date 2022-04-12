@@ -25,7 +25,9 @@
     "end": "Apr 2022",
     "description": "The desire to learn more frontend concepts on my own captured me, enrolling in this course being the best idea ever.",
     "technologies": [
-        "React"
+        "React",
+        "Chakra UI",
+        "Framer Motion"
     ]
 },
 {
@@ -53,6 +55,7 @@
     "description": "I was offered an opportunity to enroll in an internship on Java, accepting it with great pleasure to deepen my knowledge even more.",
     "technologies": [
         "Java",
-        "Spring"
+        "Spring",
+        "Docker"
     ]
 }]

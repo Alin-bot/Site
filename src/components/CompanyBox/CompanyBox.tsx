@@ -14,7 +14,7 @@ interface Props {
   data: { [key: string]: any };
 }
 
-const CompanyBox: React.FC<Props> = ({ data }) => {
+export const CompanyBox: React.FC<Props> = ({ data }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <VStack
@@ -43,5 +43,3 @@ const CompanyBox: React.FC<Props> = ({ data }) => {
     </VStack>
   );
 };
-
-export default CompanyBox;
