@@ -42,7 +42,7 @@ function getExperience() {
     <>
       <Heading>Experience</Heading>
       <Wrap justify="center" pb={20} pt={5}>
-        {experience.map((exp) => (
+        {experience.reverse().map((exp) => (
           <CompanyBox key={exp.title} data={exp} />
         ))}
       </Wrap>

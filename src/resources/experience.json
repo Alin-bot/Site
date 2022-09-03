@@ -4,7 +4,7 @@
     "photo": "https://www.endava.com/-/media/EndavaDigital/Endava/Images/MetaDataImages/preview-image.ashx",
     "type": "full-time",
     "location": "Iasi",
-    "start": "Jul 2021",
+    "start": "July 2021",
     "end": "Sep 2021",
     "description": "Applying for a position in the IT field for the first time, I saw what teamwork really means and how work is distributed in a large company. For 1 month I participated in trainings based not only on the DevOps side, but also on the Development side, in the end putting in aplication this knowledge on a large project",
     "technologies": [
@@ -57,5 +57,20 @@
         "Java",
         "Spring",
         "Docker"
+    ]
+},
+{
+    "title": "Software Engineer Intern",
+    "company": "Adobe",
+    "photo": "https://www.creativosonline.org/wp-content/uploads/2020/06/nuevo-adobe-logo.jpg.webp",
+    "type": "full-time",
+    "location": "Bucuresti (remote)",
+    "start": "July 2022",
+    "end": "Dec 2022",
+    "description": "Working with React, and combined with a project based on Python, AI and ML, was the perfect working experience.",
+    "technologies": [
+        "Python",
+        "React",
+        "Jenkins"
     ]
 }]
