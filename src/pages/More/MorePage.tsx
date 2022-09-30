@@ -3,7 +3,7 @@ import React from "react";
 import { NavBar } from "../../components";
 const PPicture = require("../../resources/bike_photo_1.jpg");
 
-const More: React.FC = () => {
+const More = () => {
   return (
     <>
       <NavBar />

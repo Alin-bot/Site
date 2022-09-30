@@ -29,7 +29,7 @@ function getEducation() {
   return (
     <>
       <Heading>Education</Heading>
-      <Wrap justify="center" pb={20} pt={5}>
+      <Wrap justify="center" pb={20} pt={5} w={"90%"}>
         <EducationBox education={education[0]} />
         <EducationBox education={education[1]} />
       </Wrap>
@@ -41,7 +41,7 @@ function getExperience() {
   return (
     <>
       <Heading>Experience</Heading>
-      <Wrap justify="center" pb={20} pt={5}>
+      <Wrap justify="center" pb={20} pt={5} w={"90%"}>
         {experience.reverse().map((exp) => (
           <CompanyBox key={exp.title} data={exp} />
         ))}
@@ -62,7 +62,7 @@ function getLove() {
               <Text>{tech.name}</Text>
             </HStack>
             <Container>{tech.description}</Container>
-            <Divider></Divider>
+            <Divider/>
           </>
         ))}
       </VStack>
@@ -94,7 +94,6 @@ function getContacts() {
         pt={5}
       >
         <VStack>
-          <Heading size="md">alinvzt18@gmail.com</Heading>
           <Heading size="md">alin.vezeteu91@gmail.com</Heading>
         </VStack>
 
@@ -121,7 +120,7 @@ function getContacts() {
   );
 }
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <>
       <NavBar />
@@ -143,7 +142,7 @@ const Home: React.FC = () => {
 
           <VStack>
             <Heading size="md" textAlign={"center"} w={[300, 300, 500]}>
-              Last year of Bachelor’s Degree in Computer Science
+              Bachelor’s Degree in Computer Science
             </Heading>
             <Divider></Divider>
             <Container>

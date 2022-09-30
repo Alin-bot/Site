@@ -71,7 +71,6 @@
     "technologies": [
         "Python",
         "React",
-        "Typescript",
-        "Jenkins"
+        "Typescript"
     ]
 }]

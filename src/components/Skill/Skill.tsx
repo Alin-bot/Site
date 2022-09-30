@@ -1,31 +1,38 @@
 import React from "react";
-import { Wrap, HStack, Badge, Tag, WrapItem } from "@chakra-ui/react";
+import { HStack, Badge, Tag, WrapItem, Flex, Divider } from "@chakra-ui/react";
 
-interface Props {
+interface SkillProps {
   skill: { title: string; data: string[] };
 }
 
-export const Skill: React.FC<Props> = ({ skill }) => {
+export const Skill = (props: SkillProps) => {
+  const { skill } = props;
   return (
-    <Wrap
-      direction={["column", "column", "column", "row"]}
-      w={[300, 300, 300, 800]}
-    >
-      <WrapItem>
-        <Badge colorScheme="purple" p={1}>
-          {skill.title}
-        </Badge>
-      </WrapItem>
+    <Flex direction="column" w={[300, 300, 300, 800]}>
+      <Divider />
+      <HStack justify={["center", "center", "center", "start"]}>
+        <WrapItem mb={2}>
+          <Badge colorScheme="purple" p={1}>
+            {skill.title}
+          </Badge>
+        </WrapItem>
+      </HStack>
 
       <WrapItem>
-        <HStack wrap={["wrap", "wrap", "wrap", "nowrap"]} spacing={3}>
-          {skill.data.map((tech) => (
-            <Tag key={tech} p={1}>
-              {tech}
+        <HStack
+          wrap={["wrap", "wrap", "wrap", "nowrap"]}
+          rowGap={2}
+          justify={["center", "center", "center", "start"]}
+          mb={3}
+          w={"100%"}
+        >
+          {skill.data.map((element) => (
+            <Tag key={element} p={1}>
+              {element}
             </Tag>
           ))}
         </HStack>
       </WrapItem>
-    </Wrap>
+    </Flex>
   );
 };

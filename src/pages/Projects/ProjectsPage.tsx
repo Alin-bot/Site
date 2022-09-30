@@ -14,7 +14,7 @@ import { NavBar } from "../../components";
 
 import projects from "../../resources/projects.json";
 
-const Projects: React.FC = () => {
+const Projects = () => {
   let color = "white";
   function getProjects(projects: any[]) {
     return (
