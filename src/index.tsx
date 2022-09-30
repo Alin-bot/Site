@@ -7,9 +7,9 @@ import { ChakraProvider, theme } from "@chakra-ui/react";
 import { Layout } from "./components";
 
 const Home = React.lazy(() => import("./pages/Home/Home"));
-const Projects = React.lazy(() => import("./pages/Projects/Projects"));
+const Projects = React.lazy(() => import("./pages/Projects/ProjectsPage"));
 const NotFound = React.lazy(() => import("./pages/NotFound/NotFound"));
-const More = React.lazy(() => import("./pages/More/More"));
+const More = React.lazy(() => import("./pages/More/MorePage"));
 
 ReactDOM.render(
   <React.StrictMode>
