@@ -1,9 +1,7 @@
-import { Center, Container, HStack, Image, VStack } from "@chakra-ui/react";
+import { Container, Image, VStack } from "@chakra-ui/react";
 import React from "react";
 import { NavBar } from "../../components";
-import other_experience from "../../resources/other_experience.json";
 
-const picture_1 = require("../../resources/bike_photo_1.jpg");
 const picture_2 = require("../../resources/bike_photo_2.jpg");
 
 const More = () => {
@@ -34,16 +32,6 @@ const More = () => {
           together with them.
         </Container>
       </VStack>
-
-
-      {/* <VStack p={5} mt={[400]}>
-        <Image
-          src={picture_1}
-          alt="first_picture"
-          h="250px"
-          borderRadius="50px"
-        />
-      </VStack> */}
     </>
   );
 };
