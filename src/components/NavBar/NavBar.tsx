@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { MdHome } from 'react-icons/md'
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import { BiHappyAlt } from 'react-icons/bi'
+import { AiOutlinePlusCircle } from 'react-icons/ai'
 import { Flex, Button, chakra } from '@chakra-ui/react'
 
 export const NavBar: React.FC = () => {
@@ -27,9 +28,16 @@ export const NavBar: React.FC = () => {
         </Link>
 
         <Link to={`/more`}>
-          <Button leftIcon={<BiHappyAlt />} colorScheme="white">
+          <Button leftIcon={<AiOutlinePlusCircle />} colorScheme="white">
             {" "}
             More{" "}
+          </Button>
+        </Link>
+
+        <Link to={`/fun`}>
+          <Button leftIcon={<BiHappyAlt />} colorScheme="white">
+            {" "}
+            Fun{" "}
           </Button>
         </Link>
       </Flex>

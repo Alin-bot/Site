@@ -134,8 +134,7 @@ const Home = () => {
             <Image
               src={`${PPicture}`}
               alt="profile-picture"
-              height="300px"
-              width="275px"
+              height="350px"
               borderRadius="50px"
             />
           </VStack>

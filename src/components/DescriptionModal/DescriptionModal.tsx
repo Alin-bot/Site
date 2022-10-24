@@ -15,7 +15,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 
-interface Props {
+type Props = {
   isOpen: boolean;
   onClose: () => void;
   data: { [key: string]: any };

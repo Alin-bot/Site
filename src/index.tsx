@@ -10,6 +10,7 @@ const Home = React.lazy(() => import("./pages/Home/Home"));
 const Projects = React.lazy(() => import("./pages/Projects/ProjectsPage"));
 const NotFound = React.lazy(() => import("./pages/NotFound/NotFound"));
 const More = React.lazy(() => import("./pages/More/MorePage"));
+const Fun = React.lazy(() => import("./pages/Fun/FunPage"));
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
               <Route index element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/more" element={<More />} />
+              <Route path="/fun" element={<Fun />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </React.Suspense>

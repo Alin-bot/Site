@@ -8,6 +8,7 @@ import {
   Heading,
   Flex,
   Button,
+  Center,
 } from "@chakra-ui/react";
 
 import { NavBar } from "../../components";
@@ -30,7 +31,13 @@ const Projects = () => {
             }
 
             return (
-              <Flex direction="column" bg={color} align="center" py="5">
+              <Flex
+                key={index}
+                direction="column"
+                bg={color}
+                align="center"
+                py="5"
+              >
                 <Heading size="md">{project.title}</Heading>
 
                 <Button
@@ -40,11 +47,18 @@ const Projects = () => {
                   View on github
                 </Button>
 
-                <Container maxW='700px'>{project.description}</Container>
+                <Center mb={5}>
+                  <Container maxW="700px">{project.description}</Container>
+                </Center>
 
                 <HStack>
                   {project.photo.map((photo: any) => (
-                    <Image height="35px" src={`${photo}`} alt="techno" />
+                    <Image
+                      key={photo}
+                      height="35px"
+                      src={`${photo}`}
+                      alt="techno"
+                    />
                   ))}
                 </HStack>
               </Flex>
