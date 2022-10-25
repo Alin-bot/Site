@@ -29,7 +29,7 @@ function HeightFormik() {
       error = "Height must be greater than 0";
     } else if (/^(\d+.)*(\d+)$/.test(value) === false) {
       error = "Height must be a number";
-    } else if (value === 0) {
+    } else if (value == 0) {
       error = "It's impposible";
     }
     return error;

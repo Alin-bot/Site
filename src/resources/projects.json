@@ -1,6 +1,6 @@
 [{
     "title": "Personal Site",
-    "description": "This website. It works on phone too",
+    "description": "This website. It works on phone too.",
     "url": "https://github.com/Alin-bot/Site",
     "photo": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png",
@@ -12,7 +12,7 @@
 },
 {
     "title": "Password Manager",
-    "description": "A Python program which saves your passwords and usernames in a SQLite Database and encrypts them using cryptocode library",
+    "description": "A Python program which saves your passwords and usernames in a SQLite Database and encrypts them using cryptocode library.",
     "url": "https://github.com/Alin-bot/Password_manager",
     "photo": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/121px-Python-logo-notext.svg.png",
@@ -32,7 +32,7 @@
 },
 {
     "title": "Traffic Simulator",
-    "description": "Together with a group of 21 people we managed to design a traffic simulator in Java using OOP principles, JavaFX library, threads, algorithms. The project was divided in 5 different modules and I was part of the team which computed the optimum path for cars to get to their destination, using genetic algorithms",
+    "description": "Together with a group of 21 people we managed to design a traffic simulator in Java using OOP principles, JavaFX library, threads, algorithms. The project was divided in 5 different modules and I was part of the team which computed the optimum path for cars to get to their destination, using genetic algorithms.",
     "url": "https://github.com/davidviziteu/programming-engineering",
     "photo": [
         "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png"
@@ -40,7 +40,7 @@
 },
 {
     "title": "Parcel Shiping Simulator",
-    "description": "My team of 3 members implemented a Web application using HTML, CSS, JS and PHP using only open source libraries (no framework)",
+    "description": "My team of 3 members implemented a Web application using HTML, CSS, JS and PHP using only open source libraries (no framework).",
     "url": "https://github.com/andreeabmanea/Web-Technologies",
     "photo": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png",
@@ -51,7 +51,7 @@
 },
 {
     "title": "Scrabble Game",
-    "description": "Together with a colleague, we managed to desgin the well known Scrabble game, using Java, OOP principles, algorithms and socket programming + JavaFX for the interface",
+    "description": "Together with a colleague, we managed to desgin the well known Scrabble game, using Java, OOP principles, algorithms and socket programming + JavaFX for the interface.",
     "url": "https://github.com/andreeabmanea/Scrabble",
     "photo": [
         "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png"
@@ -59,7 +59,7 @@
 },
 {
     "title": "Pheasant",
-    "description": "A server - client Project which simulates the well known game Pheasant",
+    "description": "A server - client Project which simulates the well known game Pheasant.",
     "url": "https://github.com/Alin-bot/Computer_networks_project",
     "photo": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
@@ -67,7 +67,7 @@
 },
 {
     "title": "Mathematical-evaluator",
-    "description": "A C++ program that evaluates mathematical expressions given as an input string",
+    "description": "A C++ program that evaluates mathematical expressions given as an input string.",
     "url": "https://github.com/Alin-bot/Mathematical-evaluator",
     "photo": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
