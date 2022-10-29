@@ -6,7 +6,7 @@ import { BiHappyAlt } from 'react-icons/bi'
 import { AiOutlinePlusCircle } from 'react-icons/ai'
 import { Flex, Button, chakra } from '@chakra-ui/react'
 
-export const NavBar: React.FC = () => {
+export const NavBar = () => {
   return (
     <chakra.header id="header">
       <Flex py="2" px="5" bg="black" justify="center">

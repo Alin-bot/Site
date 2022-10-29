@@ -1,9 +1,9 @@
 import React from "react";
 import { HStack, Badge, Tag, WrapItem, Flex, Divider } from "@chakra-ui/react";
 
-interface SkillProps {
+type SkillProps = {
   skill: { title: string; data: string[] };
-}
+};
 
 export const Skill = (props: SkillProps) => {
   const { skill } = props;

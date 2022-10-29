@@ -10,7 +10,7 @@ import React from "react";
 
 import { DescriptionModal } from "../index";
 
-interface Props {
+type Props = {
   data: { [key: string]: any };
 }
 
@@ -45,5 +45,3 @@ export const CompanyBox = (props: Props) => {
     </VStack>
   );
 };
-
-export default CompanyBox;

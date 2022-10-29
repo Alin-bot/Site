@@ -1,49 +1,51 @@
-[{
-    "title": "Foreign languages",
-    "data": [
-        "English"
-    ]
-},
-{
-    "title": "Programming languages",
-    "data": [
-        "Python",
-        "Javascript",
-        "Java",
-        "C#",
-        "C++"
-    ]
-},
-{
-    "title": "Web Developement",
-    "data": [
-        "React",
-        "Spring",
-        ".NET",
-        "HTML",
-        "CSS",
-        "Angular"
-    ]
-},
-{
-    "title": "DevOps",
-    "data": [
-        "Docker",
-        "AWS",
-        "Terraform"
-    ]
-},
-{
-    "title": "Other",
-    "data": [
-        "SQL",
-        "Git",
-        "Algorithms",
-        "Data structures",
-        "OOP",
-        "Testing",
-        "Solid",
-        "Agile methodology",
-        "Linux"
-    ]
-}]
+[
+    {
+        "title": "Foreign languages",
+        "data": [
+            "English"
+        ]
+    },
+    {
+        "title": "Programming languages",
+        "data": [
+            "Python",
+            "Javascript",
+            "Java",
+            "C#",
+            "C++"
+        ]
+    },
+    {
+        "title": "Web Developement",
+        "data": [
+            "React",
+            "Spring",
+            ".NET",
+            "HTML",
+            "CSS",
+            "Angular"
+        ]
+    },
+    {
+        "title": "DevOps",
+        "data": [
+            "Docker",
+            "AWS",
+            "Terraform"
+        ]
+    },
+    {
+        "title": "Other",
+        "data": [
+            "SQL",
+            "Git",
+            "Algorithms",
+            "Data structures",
+            "OOP",
+            "Testing",
+            "Solid",
+            "Agile methodology",
+            "Linux"
+        ]
+    }
+]

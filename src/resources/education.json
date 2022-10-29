@@ -1,12 +1,14 @@
-[{
-    "name": "“Alexandru Ioan Cuza” University",
-    "start": "2019",
-    "end": "2022",
-    "title": "Bachelor’s Degree in Computer Science"
-},
-{
-    "name": "“Alexandru Ioan Cuza” High school",
-    "start": "2015",
-    "end": "2019",
-    "title": "Mathematics & Computer Science Profile"
-}]
+[
+    {
+        "name": "“Alexandru Ioan Cuza” University",
+        "start": "2019",
+        "end": "2022",
+        "title": "Bachelor’s Degree in Computer Science"
+    },
+    {
+        "name": "“Alexandru Ioan Cuza” High school",
+        "start": "2015",
+        "end": "2019",
+        "title": "Mathematics & Computer Science Profile"
+    }
+]

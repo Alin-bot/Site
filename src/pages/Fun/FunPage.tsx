@@ -1,5 +1,4 @@
-import { NavBar } from "../../components";
-import HeightModal from "../../components/HeightModal/HeightModal";
+import { NavBar, HeightModal } from "../../components";
 
 const Fun = () => {
   return (

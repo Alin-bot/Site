@@ -97,7 +97,7 @@ const ModalBox = (props: HeightModalProps) => {
   );
 };
 
-const HeightModal = () => {
+export const HeightModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
@@ -109,5 +109,3 @@ const HeightModal = () => {
     </Center>
   );
 };
-
-export default HeightModal;

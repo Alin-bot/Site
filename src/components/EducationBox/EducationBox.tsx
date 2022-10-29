@@ -5,7 +5,8 @@ interface Props {
   education: { [key: string]: any };
 }
 
-export const EducationBox: React.FC<Props> = ({ education }) => {
+export const EducationBox = (props: Props) => {
+  const { education } = props;
   return (
     <VStack
       w={[300, 300, 600]}

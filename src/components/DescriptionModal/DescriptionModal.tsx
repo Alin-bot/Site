@@ -15,17 +15,14 @@ import {
   Box,
 } from "@chakra-ui/react";
 
-type Props = {
+type DescriptionModalProps = {
   isOpen: boolean;
   onClose: () => void;
   data: { [key: string]: any };
-}
+};
 
-export const DescriptionModal: React.FC<Props> = ({
-  isOpen,
-  onClose,
-  data,
-}) => {
+export const DescriptionModal = (props: DescriptionModalProps) => {
+  const { data, isOpen, onClose } = props;
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />

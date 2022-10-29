@@ -39,7 +39,7 @@ function getEducation() {
 
 function getExperience() {
   return (
-    <>
+    <> 
       <Heading>Experience</Heading>
       <Wrap justify="center" pb={20} pt={5} w={"90%"}>
         {experience.reverse().map((exp) => (
@@ -62,7 +62,7 @@ function getLove() {
               <Text>{tech.name}</Text>
             </HStack>
             <Container>{tech.description}</Container>
-            <Divider/>
+            <Divider />
           </>
         ))}
       </VStack>

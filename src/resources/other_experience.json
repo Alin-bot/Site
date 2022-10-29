@@ -1,10 +1,12 @@
-[{
-    "title": "Jooyridez volunteer",
-    "company": "Jooyridez",
-    "photo": "https://www.endava.com/-/media/EndavaDigital/Endava/Images/MetaDataImages/preview-image.ashx",
-    "type": "part-time",
-    "location": "Iasi - Barnova",
-    "start": "April 2021",
-    "end": "October 2021",
-    "description": "Guide for people who want to explore Barnova's forests and learn about the history of the area, on asisted electric bikes for a full beautifull experience."
-}]
+[
+    {
+        "title": "Jooyridez volunteer",
+        "company": "Jooyridez",
+        "photo": "https://www.endava.com/-/media/EndavaDigital/Endava/Images/MetaDataImages/preview-image.ashx",
+        "type": "part-time",
+        "location": "Iasi - Barnova",
+        "start": "April 2021",
+        "end": "October 2021",
+        "description": "Guide for people who want to explore Barnova's forests and learn about the history of the area, on asisted electric bikes for a full beautifull experience."
+    }
+]
