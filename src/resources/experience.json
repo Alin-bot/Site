@@ -57,7 +57,7 @@
     "location": "Bucuresti (remote)",
     "start": "July 2022",
     "end": "Dec 2022",
-    "description": "I loved React so I wanted to continue with it. This opportunity was perfect to learn more advanced React concepts and to make me feel more confortable with it.",
-    "technologies": ["React", "Typescript", "Microfrontend"]
+    "description": "I love React so I wanted to continue with it. This opportunity was perfect to learn more advanced React concepts and to make me feel more confortable with it.",
+    "technologies": ["React", "Typescript", "Spectrum", "Microfrontend", "Postman", "Git"]
   }
 ]
