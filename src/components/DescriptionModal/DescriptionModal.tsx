@@ -33,10 +33,10 @@ export const DescriptionModal = (props: DescriptionModalProps) => {
         </ModalHeader>
         <ModalCloseButton />
 
-        <ModalBody>
-          <Container mb={19}>{data.description}</Container>
+        <ModalBody mb={5}>
+          {data.description}
 
-          <Heading size="sm">Used Technologies:</Heading>
+          <Heading size="sm" mt={5}>Used Technologies:</Heading>
 
           <UnorderedList>
             {data.technologies.map((tech: string) => (
@@ -44,10 +44,6 @@ export const DescriptionModal = (props: DescriptionModalProps) => {
             ))}
           </UnorderedList>
         </ModalBody>
-
-        <ModalFooter>
-          <Box>{`Start date: ${data.start} - End date: ${data.end}`}</Box>
-        </ModalFooter>
       </ModalContent>
     </Modal>
   );

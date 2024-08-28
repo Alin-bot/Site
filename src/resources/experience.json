@@ -2,13 +2,19 @@
   {
     "title": "Application Management Engineer Intern",
     "company": "Endava",
-    "photo": "https://www.endava.com/-/media/EndavaDigital/Endava/Images/MetaDataImages/preview-image.ashx",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/b/bd/Endava_d.o.o._logo.png",
     "type": "full-time",
     "location": "Iasi",
     "start": "Jul 2021",
     "end": "Sep 2021",
     "description": "Applying for a position in the IT field for the first time, I saw what teamwork really means and how work is distributed in a large company. For 1 month I participated in trainings based not only on the DevOps side, but also on the Development side, in the end putting in aplication this knowledge on a large project",
-    "technologies": ["AWS", "Docker", "Terraform", ".NET", "Angular"]
+    "technologies": [
+      "AWS",
+      "Docker",
+      "Terraform",
+      ".NET",
+      "Angular"
+    ]
   },
   {
     "title": "Training Participant (React - Bytex)",
@@ -30,13 +36,16 @@
   {
     "title": "Java Software Engineer Academy",
     "company": "Endava",
-    "photo": "https://www.endava.com/-/media/EndavaDigital/Endava/Images/MetaDataImages/preview-image.ashx",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/b/bd/Endava_d.o.o._logo.png",
     "type": "full-time",
     "location": "Iasi",
     "start": "Mar 2022",
     "end": "Apr 2022",
     "description": "I attended this academy hoping to deepen my knowledge of java and web services.",
-    "technologies": ["Java", "Spring"]
+    "technologies": [
+      "Java",
+      "Spring"
+    ]
   },
   {
     "title": "Java Software Engineer Intern",
@@ -47,7 +56,11 @@
     "start": "Apr 2022",
     "end": "May 2022",
     "description": "I was offered an opportunity to enroll in an internship on Java, accepting it with great pleasure to deepen my knowledge even more.",
-    "technologies": ["Java", "Spring", "Docker"]
+    "technologies": [
+      "Java",
+      "Spring",
+      "Docker"
+    ]
   },
   {
     "title": "Software Engineer Intern",
@@ -58,6 +71,33 @@
     "start": "July 2022",
     "end": "Dec 2022",
     "description": "I love React so I wanted to continue with it. This opportunity was perfect to learn more advanced React concepts and to make me feel more confortable with it.",
-    "technologies": ["React", "Typescript", "Spectrum", "Microfrontend", "Postman", "Git"]
+    "technologies": [
+      "React",
+      "Typescript",
+      "Spectrum",
+      "Microfrontend",
+      "Postman",
+      "Git"
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Adobe",
+    "photo": "https://www.creativosonline.org/wp-content/uploads/2020/06/nuevo-adobe-logo.jpg.webp",
+    "type": "full-time",
+    "location": "Bucuresti (hybrid)",
+    "start": "January 2023",
+    "end": "present",
+    "description": "Loved the internship so much that I decided to continue with Adobe. I am currently working on a large project that involves a lot of technologies. I am very happy with the team and the work environment.",
+    "technologies": [
+      "React",
+      "Typescript",
+      "MatherialUI",
+      "Backstage",
+      "Spectrum",
+      "Microfrontend",
+      "Postman",
+      "Git"
+    ]
   }
 ]

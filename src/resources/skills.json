@@ -8,6 +8,7 @@
     {
         "title": "Programming languages",
         "data": [
+            "TypeScript",
             "Python",
             "Javascript",
             "Java",
@@ -37,8 +38,8 @@
     {
         "title": "Other",
         "data": [
-            "SQL",
             "Git",
+            "SQL",
             "Algorithms",
             "Data structures",
             "OOP",

@@ -39,7 +39,7 @@ function getEducation() {
 
 function getExperience() {
   return (
-    <> 
+    <>
       <Heading>Experience</Heading>
       <Wrap justify="center" pb={20} pt={5} w={"90%"}>
         {experience.reverse().map((exp) => (
@@ -145,10 +145,12 @@ const Home = () => {
             </Heading>
             <Divider></Divider>
             <Container>
-              My strongest passion is programming and what intrigues me most
-              from this vast field is the backend and the mental challenges
-              given by it, in order to devolop a final project. I am also keen
-              on discovering more frontend concepts.
+              My deepest passion lies in programming, and while I've long been
+              enamored with the intricate challenges of backend development, my
+              recent foray into frontend work has ignited a newfound love. I'm
+              captivated by the creative possibilities and the dynamic nature of
+              frontend development, and I'm eager to delve deeper into its
+              concepts and complexities.
             </Container>
           </VStack>
         </HStack>
