@@ -1,4 +1,4 @@
-import { Heading, VStack, Box } from "@chakra-ui/react";
+import { Heading, VStack } from "@chakra-ui/react";
 import React from "react";
 import { IEducation } from "../../api/model/Education/IEducation";
 
