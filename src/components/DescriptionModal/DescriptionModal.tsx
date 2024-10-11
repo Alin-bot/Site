@@ -4,15 +4,12 @@ import {
   ModalOverlay,
   ModalContent,
   ModalHeader,
-  ModalFooter,
   ModalBody,
   ModalCloseButton,
   Heading,
   UnorderedList,
   ListItem,
   Image,
-  Container,
-  Box,
 } from "@chakra-ui/react";
 
 type DescriptionModalProps = {
